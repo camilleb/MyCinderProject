@@ -12,5 +12,5 @@ public:
 	void draw();
 	void addFlickrImage( string url );
 	
-	std::list<FlickrImage>	mFlickrImages;
+	std::list<FlickrImage>	mFlickrImages;	
 };

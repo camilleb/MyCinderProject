@@ -2,7 +2,10 @@
 #include "cinder/gl/gl.h"
 #include "cinder/ImageIo.h"
 #include "cinder/gl/Texture.h"
+#include "cinder/Xml.h"
 #include "Controller.h"
+#include "FlickrXML.h"
+#include <string>
 
 using namespace ci;
 using namespace ci::app;
@@ -15,11 +18,9 @@ class MyCinderProjectApp : public AppBasic {
 	void update();
 	void draw();
 	
-	//gl::Texture myFlickrImages [];
-//	gl::Texture myFlickrImage;
-	
 	Controller mController;
-	
+	FlickrXML mFlickrXML;
+
 };
 
 
@@ -32,11 +33,17 @@ void MyCinderProjectApp::prepareSettings(Settings *settings )
 
 void MyCinderProjectApp::setup()
 {
-	mController.addFlickrImage("http://farm8.static.flickr.com/7032/6393973263_20f9ca225c_m.jpg");
-	mController.addFlickrImage("http://farm8.static.flickr.com/7032/6393973263_20f9ca225c_m.jpg");
-	mController.addFlickrImage("http://farm8.static.flickr.com/7032/6393973263_20f9ca225c_m.jpg");
-	mController.addFlickrImage("http://farm8.static.flickr.com/7032/6393973263_20f9ca225c_m.jpg");
-	mController.addFlickrImage("http://farm8.static.flickr.com/7032/6393973263_20f9ca225c_m.jpg");
+	mFlickrXML = FlickrXML("dog");
+	XmlTree photos = mFlickrXML.getXMLPhotos();
+	console() << photos << endl;
+	for( XmlTree::Iter photo = photos.begin("photo"); photo != photos.end(); ++photo ){
+		string photoFarm = photo->getAttributeValue<string>( "farm" );
+		string photoId = photo->getAttributeValue<string>( "id" );
+		string photoServer = photo->getAttributeValue<string>( "server" );		
+		string photoSecret = photo->getAttributeValue<string>( "secret" );
+		string url = "http://farm"+photoFarm+".static.flickr.com/"+photoServer+"/"+photoId+"_"+photoSecret+"_m.jpg";
+		mController.addFlickrImage(url);
+	}
 	
 }
 

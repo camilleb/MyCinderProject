@@ -21,6 +21,7 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		99029CC3147E998F003030C0 /* FlickrImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99029CC2147E998F003030C0 /* FlickrImage.cpp */; };
 		99029CE0147EA4FB003030C0 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99029CDF147EA4FB003030C0 /* Controller.cpp */; };
+		99029D24147EB19C003030C0 /* FlickrXML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99029D23147EB19C003030C0 /* FlickrXML.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,8 @@
 		99029CC2147E998F003030C0 /* FlickrImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FlickrImage.cpp; sourceTree = "<group>"; };
 		99029CDE147EA4FB003030C0 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
 		99029CDF147EA4FB003030C0 /* Controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		99029D22147EB19C003030C0 /* FlickrXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrXML.h; sourceTree = "<group>"; };
+		99029D23147EB19C003030C0 /* FlickrXML.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FlickrXML.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,7 @@
 				00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */,
 				99029CC2147E998F003030C0 /* FlickrImage.cpp */,
 				99029CDF147EA4FB003030C0 /* Controller.cpp */,
+				99029D23147EB19C003030C0 /* FlickrXML.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -129,6 +133,7 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				99029D22147EB19C003030C0 /* FlickrXML.h */,
 				99029CDE147EA4FB003030C0 /* Controller.h */,
 				99029CC1147E998F003030C0 /* FlickrImage.h */,
 				32CA4F630368D1EE00C91783 /* MyCinderProject_Prefix.pch */,
@@ -218,6 +223,7 @@
 				00BAE65A0E7ED9C10018A608 /* MyCinderProjectApp.cpp in Sources */,
 				99029CC3147E998F003030C0 /* FlickrImage.cpp in Sources */,
 				99029CE0147EA4FB003030C0 /* Controller.cpp in Sources */,
+				99029D24147EB19C003030C0 /* FlickrXML.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

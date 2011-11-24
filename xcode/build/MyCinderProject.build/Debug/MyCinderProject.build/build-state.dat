@@ -1,7 +1,7 @@
 TMyCinderProject
 v7
 r0
-t343846651.618921
+t343856006.670405
 cCheck dependencies
 cProcessInfoPlistFile /Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/MyCinderProject.app/Contents/Info.plist Info.plist
 cCpResource build/Debug/MyCinderProject.app/Contents/Resources/CinderApp.icns ../resources/CinderApp.icns
@@ -9,6 +9,7 @@ cProcessPCH++ /var/folders/CS/CSj67S63FM0y0rKa5vlvLk+++TI/-Caches-/com.apple.Xco
 cCompileC build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/MyCinderProjectApp.o /Users/camilleb/Workshop/MyCinderProject/xcode/../src/MyCinderProjectApp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cCompileC build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/FlickrImage.o /Users/camilleb/Workshop/MyCinderProject/xcode/FlickrImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cCompileC build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/Controller.o /Users/camilleb/Workshop/MyCinderProject/xcode/Controller.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/FlickrXML.o /Users/camilleb/Workshop/MyCinderProject/xcode/FlickrXML.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cLd /Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/MyCinderProject.app/Contents/MacOS/MyCinderProject normal i386
 cTouch /Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/MyCinderProject.app
 
@@ -188,13 +189,14 @@ t1311034495
 s114357
 
 N/Users/camilleb/Workshop/MyCinderProject/xcode/../src/MyCinderProjectApp.cpp
-c000000004ECE76DB0000000000000528
-t1322153691
-s1320
+c000000004ECE9BF800000000000005BC
+t1322163192
+s1468
 i"cinder/app/AppBasic.h"
 i"cinder/gl/gl.h"
 i"cinder/ImageIo.h"
 i"cinder/gl/Texture.h"
+i"Controller.h"
 
 N/Users/camilleb/Workshop/MyCinderProject/xcode/Controller.cpp
 c000000004ECE776F00000000000002CF
@@ -206,9 +208,23 @@ i"cinder/Vector.h"
 i"Controller.h"
 
 N/Users/camilleb/Workshop/MyCinderProject/xcode/Controller.h
-c000000004ECE752700000000000000F6
-t1322153255
-s246
+c000000004ECE7D5A00000000000000F7
+t1322155354
+s247
+i"FlickrImage.h"
+i<list>
+i<string>
+
+N/Users/camilleb/Workshop/MyCinderProject/xcode/FlickXML.cpp
+c000000004ECE7A1C00000000000000B1
+t1322154524
+s177
+i"FlickXML.h"
+
+N/Users/camilleb/Workshop/MyCinderProject/xcode/FlickXML.h
+c000000004ECE7A1C0000000000000098
+t1322154524
+s152
 
 N/Users/camilleb/Workshop/MyCinderProject/xcode/FlickrImage.cpp
 c000000004ECE772000000000000002D5
@@ -233,6 +249,20 @@ i"cinder/Vector.h"
 i<vector>
 i<string>
 
+N/Users/camilleb/Workshop/MyCinderProject/xcode/FlickrXML.cpp
+c000000004ECE8B1D0000000000000278
+t1322158877
+s632
+i"FlickXML.h"
+
+N/Users/camilleb/Workshop/MyCinderProject/xcode/FlickrXML.h
+c000000004ECE7CEC000000000000011C
+t1322155244
+s284
+i"cinder/app/AppBasic.h"
+i"cinder/Xml.h"
+i<string>
+
 N/Users/camilleb/Workshop/MyCinderProject/xcode/MyCinderProject_Prefix.pch
 c000000004ECE11D40000000000000093
 t1322127828
@@ -240,7 +270,7 @@ s147
 i<Cocoa/Cocoa.h>
 
 N/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/MyCinderProject.app
-t1322153851
+t1322163206
 s102
 
 N/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/MyCinderProject.app/Contents/Info.plist
@@ -248,8 +278,8 @@ t1322143737
 s1251
 
 N/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/MyCinderProject.app/Contents/MacOS/MyCinderProject
-t1322153851
-s7957384
+t1322163206
+s8029184
 
 N/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/MyCinderProject.app/Contents/PkgInfo
 t1322143737
@@ -260,21 +290,29 @@ t1322143737
 s114357
 
 N/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/Controller.o
-t1322153846
+t1322155561
 s572552
+
+N/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/FlickXML.o
+t2
+s0
 
 N/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/FlickrImage.o
 t1322153846
 s567096
 
+N/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/FlickrXML.o
+t1322158883
+s560600
+
 N/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/MyCinderProject.LinkFileList
-c000000004ECE740100000000000001A1
-t1322152961
-s417
+c000000004ECE7E140000000000000228
+t1322155540
+s552
 
 N/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/MyCinderProjectApp.o
-t1322153697
-s512524
+t1322163201
+s698692
 
 N/Users/camilleb/Workshop/cinder/boost/boost/aligned_storage.hpp
 c000000004A68476000000000000010C9
@@ -6936,11 +6974,11 @@ s856
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies343846642#343846642#0(0"0(0#1#0"8634055168#0"0#
+lSLF07#2@18"Check dependencies343855994#343855994#0(0"0(0#1#0"8610823872#0"0#
 
 CCompileC build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/Controller.o /Users/camilleb/Workshop/MyCinderProject/xcode/Controller.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s343846642.557144
-e343846646.266544
+s343848340.507298
+e343848361.141551
 r1
 xCompileC
 xbuild/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/Controller.o
@@ -6949,7 +6987,10 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/camilleb/Workshop/MyCinderProject/xcode/Controller.cpp343846642#343846646#0(0"0(0#0#61"/Users/camilleb/Workshop/MyCinderProject/xcode/Controller.cpp8626712992#1782"    cd /Users/camilleb/Workshop/MyCinderProject/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-generated-files.hmap -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-own-target-headers.hmap -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-all-target-headers.hmap -iquote /Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-project-headers.hmap -F/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug -iquote../../cinder/include -iquote../include -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/include -I../../cinder/boost -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/DerivedSources/i386 -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/DerivedSources -include /var/folders/CS/CSj67S63FM0y0rKa5vlvLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCinderProject_Prefix-asksprtsmzxmqubtftysguehkpla/MyCinderProject_Prefix.pch -c /Users/camilleb/Workshop/MyCinderProject/xcode/Controller.cpp -o /Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/Controller.o0#
+lSLF07#2@69"Compile /Users/camilleb/Workshop/MyCinderProject/xcode/Controller.cpp343848340#343848361#0(0"0(0#0#61"/Users/camilleb/Workshop/MyCinderProject/xcode/Controller.cpp8626880704#1782"    cd /Users/camilleb/Workshop/MyCinderProject/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-generated-files.hmap -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-own-target-headers.hmap -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-all-target-headers.hmap -iquote /Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-project-headers.hmap -F/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug -iquote../../cinder/include -iquote../include -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/include -I../../cinder/boost -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/DerivedSources/i386 -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/DerivedSources -include /var/folders/CS/CSj67S63FM0y0rKa5vlvLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCinderProject_Prefix-asksprtsmzxmqubtftysguehkpla/MyCinderProject_Prefix.pch -c /Users/camilleb/Workshop/MyCinderProject/xcode/Controller.cpp -o /Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/Controller.o0#
+
+CCompileC build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/FlickXML.o /Users/camilleb/Workshop/MyCinderProject/xcode/FlickXML.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/FlickrImage.o /Users/camilleb/Workshop/MyCinderProject/xcode/FlickrImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s343846642.556102
@@ -6964,9 +7005,22 @@ xc++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@70"Compile /Users/camilleb/Workshop/MyCinderProject/xcode/FlickrImage.cpp343846642#343846646#0(0"0(0#0#62"/Users/camilleb/Workshop/MyCinderProject/xcode/FlickrImage.cpp8631829536#1784"    cd /Users/camilleb/Workshop/MyCinderProject/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-generated-files.hmap -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-own-target-headers.hmap -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-all-target-headers.hmap -iquote /Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-project-headers.hmap -F/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug -iquote../../cinder/include -iquote../include -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/include -I../../cinder/boost -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/DerivedSources/i386 -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/DerivedSources -include /var/folders/CS/CSj67S63FM0y0rKa5vlvLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCinderProject_Prefix-asksprtsmzxmqubtftysguehkpla/MyCinderProject_Prefix.pch -c /Users/camilleb/Workshop/MyCinderProject/xcode/FlickrImage.cpp -o /Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/FlickrImage.o0#
 
+CCompileC build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/FlickrXML.o /Users/camilleb/Workshop/MyCinderProject/xcode/FlickrXML.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s343851679.787305
+e343851683.978329
+r1
+xCompileC
+xbuild/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/FlickrXML.o
+x/Users/camilleb/Workshop/MyCinderProject/xcode/FlickrXML.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/camilleb/Workshop/MyCinderProject/xcode/FlickrXML.cpp343851679#343851683#0(0"0(0#0#60"/Users/camilleb/Workshop/MyCinderProject/xcode/FlickrXML.cpp8626922752#1780"    cd /Users/camilleb/Workshop/MyCinderProject/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-generated-files.hmap -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-own-target-headers.hmap -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-all-target-headers.hmap -iquote /Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-project-headers.hmap -F/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug -iquote../../cinder/include -iquote../include -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/include -I../../cinder/boost -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/DerivedSources/i386 -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/DerivedSources -include /var/folders/CS/CSj67S63FM0y0rKa5vlvLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCinderProject_Prefix-asksprtsmzxmqubtftysguehkpla/MyCinderProject_Prefix.pch -c /Users/camilleb/Workshop/MyCinderProject/xcode/FlickrXML.cpp -o /Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/FlickrXML.o0#
+
 CCompileC build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/MyCinderProjectApp.o /Users/camilleb/Workshop/MyCinderProject/xcode/../src/MyCinderProjectApp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s343846493.354348
-e343846497.900023
+s343855994.103687
+e343856001.042312
 r1
 xCompileC
 xbuild/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/MyCinderProjectApp.o
@@ -6975,7 +7029,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/camilleb/Workshop/MyCinderProject/xcode/../src/MyCinderProjectApp.cpp343846493#343846497#0(0"0(0#0#76"/Users/camilleb/Workshop/MyCinderProject/xcode/../src/MyCinderProjectApp.cpp8634687392#1805"    cd /Users/camilleb/Workshop/MyCinderProject/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-generated-files.hmap -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-own-target-headers.hmap -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-all-target-headers.hmap -iquote /Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-project-headers.hmap -F/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug -iquote../../cinder/include -iquote../include -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/include -I../../cinder/boost -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/DerivedSources/i386 -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/DerivedSources -include /var/folders/CS/CSj67S63FM0y0rKa5vlvLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCinderProject_Prefix-asksprtsmzxmqubtftysguehkpla/MyCinderProject_Prefix.pch -c /Users/camilleb/Workshop/MyCinderProject/xcode/../src/MyCinderProjectApp.cpp -o /Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/MyCinderProjectApp.o0#
+lSLF07#2@84"Compile /Users/camilleb/Workshop/MyCinderProject/xcode/../src/MyCinderProjectApp.cpp343855994#343856001#0(0"0(0#0#76"/Users/camilleb/Workshop/MyCinderProject/xcode/../src/MyCinderProjectApp.cpp8613854304#1805"    cd /Users/camilleb/Workshop/MyCinderProject/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-generated-files.hmap -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-own-target-headers.hmap -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-all-target-headers.hmap -iquote /Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-project-headers.hmap -F/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug -iquote../../cinder/include -iquote../include -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/include -I../../cinder/boost -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/DerivedSources/i386 -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/DerivedSources -include /var/folders/CS/CSj67S63FM0y0rKa5vlvLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCinderProject_Prefix-asksprtsmzxmqubtftysguehkpla/MyCinderProject_Prefix.pch -c /Users/camilleb/Workshop/MyCinderProject/xcode/../src/MyCinderProjectApp.cpp -o /Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/MyCinderProjectApp.o0#
 
 CCpResource build/Debug/MyCinderProject.app/Contents/Resources/CinderApp.icns ../resources/CinderApp.icns
 s343836537.274047
@@ -6987,8 +7041,8 @@ x../resources/CinderApp.icns
 lSLF07#2@32"Copy ../resources/CinderApp.icns343836537#343836537#0(0"0(0#0#74"/Users/camilleb/Workshop/MyCinderProject/xcode/../resources/CinderApp.icns8600295840#389"    cd /Users/camilleb/Workshop/MyCinderProject/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/camilleb/Workshop/MyCinderProject/xcode/../resources/CinderApp.icns /Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/MyCinderProject.app/Contents/Resources0#
 
 CLd /Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/MyCinderProject.app/Contents/MacOS/MyCinderProject normal i386
-s343846646.266640
-e343846651.615950
+s343856001.042547
+e343856006.666786
 r1
 xLd
 x/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/MyCinderProject.app/Contents/MacOS/MyCinderProject
@@ -7010,7 +7064,7 @@ old: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::ex
 old: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::rethrow() consthas different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)
 old: warning: non-virtual thunk to boost::exception_detail::error_info_injector<boost::thread_resource_error>::~error_info_injector()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)
 old: warning: non-virtual thunk to boost::exception_detail::error_info_injector<boost::thread_resource_error>::~error_info_injector()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)
-lSLF07#2@114"Link /Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/MyCinderProject.app/Contents/MacOS/MyCinderProject343846646#343846651#0(4856"ld: warning: non-virtual thunk to boost::exception_detail::error_info_injector<boost::lock_error>::~error_info_injector()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::rethrow() consthas different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::clone() consthas different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::clone() consthas different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::error_info_injector<boost::lock_error>::~error_info_injector()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::rethrow() consthas different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::error_info_injector<boost::thread_resource_error>::~error_info_injector()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::error_info_injector<boost::thread_resource_error>::~error_info_injector()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)16(22@262"Non-virtual thunk to boost::exception_detail::error_info_injector<boost::lock_error>::~error_info_injector()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343846651#0#276#0(6@0"343846651#0#0#0#0#0"0(22@293"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::rethrow() consthas different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343846651#276#307#0(6@0"343846651#0#0#0#0#0"0(22@302"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343846651#583#316#0(6@0"343846651#0#0#0#0#0"0(22@302"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343846651#899#316#0(6@0"343846651#0#0#0#0#0"0(22@291"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343846651#1215#305#0(6@0"343846651#0#0#0#0#0"0(22@291"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343846651#1520#305#0(6@0"343846651#0#0#0#0#0"0(22@291"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343846651#1825#305#0(6@0"343846651#0#0#0#0#0"0(22@291"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343846651#2130#305#0(6@0"343846651#0#0#0#0#0"0(22@302"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::clone() consthas different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343846651#2435#316#0(6@0"343846651#0#0#0#0#0"0(22@291"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::clone() consthas different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343846651#2751#305#0(6@0"343846651#0#0#0#0#0"0(22@262"Non-virtual thunk to boost::exception_detail::error_info_injector<boost::lock_error>::~error_info_injector()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343846651#3056#276#0(6@0"343846651#0#0#0#0#0"0(22@302"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343846651#3332#316#0(6@0"343846651#0#0#0#0#0"0(22@302"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343846651#3648#316#0(6@0"343846651#0#0#0#0#0"0(22@304"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::rethrow() consthas different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343846651#3964#318#0(6@0"343846651#0#0#0#0#0"0(22@273"Non-virtual thunk to boost::exception_detail::error_info_injector<boost::thread_resource_error>::~error_info_injector()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343846651#4282#287#0(6@0"343846651#0#0#0#0#0"0(22@273"Non-virtual thunk to boost::exception_detail::error_info_injector<boost::thread_resource_error>::~error_info_injector()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343846651#4569#287#0(6@0"343846651#0#0#0#0#0"0(0#0#0"8634953120#832"    cd /Users/camilleb/Workshop/MyCinderProject/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug -F/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug -filelist /Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/MyCinderProject.LinkFileList -mmacosx-version-min=10.5 ../../cinder/lib/libcinder_d.a -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/MyCinderProject.app/Contents/MacOS/MyCinderProject0#
+lSLF07#2@114"Link /Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/MyCinderProject.app/Contents/MacOS/MyCinderProject343856001#343856006#0(4856"ld: warning: non-virtual thunk to boost::exception_detail::error_info_injector<boost::lock_error>::~error_info_injector()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::rethrow() consthas different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::clone() consthas different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::clone() consthas different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::error_info_injector<boost::lock_error>::~error_info_injector()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::rethrow() consthas different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::error_info_injector<boost::thread_resource_error>::~error_info_injector()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)ld: warning: non-virtual thunk to boost::exception_detail::error_info_injector<boost::thread_resource_error>::~error_info_injector()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)16(22@262"Non-virtual thunk to boost::exception_detail::error_info_injector<boost::lock_error>::~error_info_injector()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343856006#0#276#0(6@0"343856006#0#0#0#0#0"0(22@293"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::rethrow() consthas different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343856006#276#307#0(6@0"343856006#0#0#0#0#0"0(22@302"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343856006#583#316#0(6@0"343856006#0#0#0#0#0"0(22@302"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343856006#899#316#0(6@0"343856006#0#0#0#0#0"0(22@291"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343856006#1215#305#0(6@0"343856006#0#0#0#0#0"0(22@291"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343856006#1520#305#0(6@0"343856006#0#0#0#0#0"0(22@291"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343856006#1825#305#0(6@0"343856006#0#0#0#0#0"0(22@291"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343856006#2130#305#0(6@0"343856006#0#0#0#0#0"0(22@302"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::clone() consthas different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343856006#2435#316#0(6@0"343856006#0#0#0#0#0"0(22@291"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >::clone() consthas different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343856006#2751#305#0(6@0"343856006#0#0#0#0#0"0(22@262"Non-virtual thunk to boost::exception_detail::error_info_injector<boost::lock_error>::~error_info_injector()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343856006#3056#276#0(6@0"343856006#0#0#0#0#0"0(22@302"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343856006#3332#316#0(6@0"343856006#0#0#0#0#0"0(22@302"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::~clone_impl()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343856006#3648#316#0(6@0"343856006#0#0#0#0#0"0(22@304"Non-virtual thunk to boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error> >::rethrow() consthas different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343856006#3964#318#0(6@0"343856006#0#0#0#0#0"0(22@273"Non-virtual thunk to boost::exception_detail::error_info_injector<boost::thread_resource_error>::~error_info_injector()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343856006#4282#287#0(6@0"343856006#0#0#0#0#0"0(22@273"Non-virtual thunk to boost::exception_detail::error_info_injector<boost::thread_resource_error>::~error_info_injector()has different visibility (hidden) in ../../cinder/lib/libcinder_d.a(thread.o) and (default) in ../../cinder/lib/libcinder_d.a(libcinder_d.a-i386-master.o)343856006#4569#287#0(6@0"343856006#0#0#0#0#0"0(0#0#0"8594692128#832"    cd /Users/camilleb/Workshop/MyCinderProject/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug -F/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug -filelist /Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/Objects-normal/i386/MyCinderProject.LinkFileList -mmacosx-version-min=10.5 ../../cinder/lib/libcinder_d.a -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/MyCinderProject.app/Contents/MacOS/MyCinderProject0#
 
 CProcessInfoPlistFile /Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/MyCinderProject.app/Contents/Info.plist Info.plist
 s343836537.270422
@@ -7035,10 +7089,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@37"Precompile MyCinderProject_Prefix.pch343836537#343836537#0(0"0(0#0#73"/Users/camilleb/Workshop/MyCinderProject/xcode/MyCinderProject_Prefix.pch8615357952#1660"    cd /Users/camilleb/Workshop/MyCinderProject/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-generated-files.hmap -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-own-target-headers.hmap -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-all-target-headers.hmap -iquote /Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/MyCinderProject-project-headers.hmap -F/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug -iquote../../cinder/include -iquote../include -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/include -I../../cinder/boost -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/DerivedSources/i386 -I/Users/camilleb/Workshop/MyCinderProject/xcode/build/MyCinderProject.build/Debug/MyCinderProject.build/DerivedSources -c /Users/camilleb/Workshop/MyCinderProject/xcode/MyCinderProject_Prefix.pch -o /var/folders/CS/CSj67S63FM0y0rKa5vlvLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCinderProject_Prefix-asksprtsmzxmqubtftysguehkpla/MyCinderProject_Prefix.pch.gch0#
 
 CTouch /Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/MyCinderProject.app
-s343846651.616114
-e343846651.618882
+s343856006.667083
+e343856006.670365
 r1
 xTouch
 x/Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/MyCinderProject.app
-lSLF07#2@84"Touch /Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/MyCinderProject.app343846651#343846651#0(0"0(0#0#0"8634644320#155"    cd /Users/camilleb/Workshop/MyCinderProject/xcode    /usr/bin/touch -c /Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/MyCinderProject.app0#
+lSLF07#2@84"Touch /Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/MyCinderProject.app343856006#343856006#0(0"0(0#0#0"8621054528#155"    cd /Users/camilleb/Workshop/MyCinderProject/xcode    /usr/bin/touch -c /Users/camilleb/Workshop/MyCinderProject/xcode/build/Debug/MyCinderProject.app0#
 
