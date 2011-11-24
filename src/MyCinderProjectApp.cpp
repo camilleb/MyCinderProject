@@ -33,7 +33,7 @@ void MyCinderProjectApp::prepareSettings(Settings *settings )
 
 void MyCinderProjectApp::setup()
 {
-	mFlickrXML = FlickrXML("dog");
+	mFlickrXML = FlickrXML("kitten");
 	XmlTree photos = mFlickrXML.getXMLPhotos();
 	console() << photos << endl;
 	for( XmlTree::Iter photo = photos.begin("photo"); photo != photos.end(); ++photo ){

@@ -43,12 +43,12 @@
 		53E3CDFB0E86099300238D2B /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* MyCinderProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCinderProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		99029CC1147E998F003030C0 /* FlickrImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrImage.h; sourceTree = "<group>"; };
-		99029CC2147E998F003030C0 /* FlickrImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FlickrImage.cpp; sourceTree = "<group>"; };
-		99029CDE147EA4FB003030C0 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
-		99029CDF147EA4FB003030C0 /* Controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
-		99029D22147EB19C003030C0 /* FlickrXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrXML.h; sourceTree = "<group>"; };
-		99029D23147EB19C003030C0 /* FlickrXML.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FlickrXML.cpp; sourceTree = "<group>"; };
+		99029CC2147E998F003030C0 /* FlickrImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FlickrImage.cpp; path = ../src/FlickrImage.cpp; sourceTree = "<group>"; };
+		99029CDE147EA4FB003030C0 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Controller.h; path = ../include/Controller.h; sourceTree = "<group>"; };
+		99029CDF147EA4FB003030C0 /* Controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Controller.cpp; path = ../src/Controller.cpp; sourceTree = "<group>"; };
+		99029D22147EB19C003030C0 /* FlickrXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlickrXML.h; path = ../include/FlickrXML.h; sourceTree = "<group>"; };
+		99029D23147EB19C003030C0 /* FlickrXML.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FlickrXML.cpp; path = ../src/FlickrXML.cpp; sourceTree = "<group>"; };
+		99029ECC147ED731003030C0 /* FlickrImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlickrImage.h; path = ../include/FlickrImage.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +75,8 @@
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */,
 				99029CC2147E998F003030C0 /* FlickrImage.cpp */,
+				00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */,
 				99029CDF147EA4FB003030C0 /* Controller.cpp */,
 				99029D23147EB19C003030C0 /* FlickrXML.cpp */,
 			);
@@ -135,8 +135,8 @@
 			children = (
 				99029D22147EB19C003030C0 /* FlickrXML.h */,
 				99029CDE147EA4FB003030C0 /* Controller.h */,
-				99029CC1147E998F003030C0 /* FlickrImage.h */,
 				32CA4F630368D1EE00C91783 /* MyCinderProject_Prefix.pch */,
+				99029ECC147ED731003030C0 /* FlickrImage.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";

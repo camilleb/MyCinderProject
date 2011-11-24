@@ -3,7 +3,7 @@
 	00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {894, 806}}";
-			sepNavSelRange = "{681, 0}";
+			sepNavSelRange = "{188, 0}";
 			sepNavVisRange = "{118, 1209}";
 			sepNavWindowFrame = "{{247, 271}, {750, 558}}";
 		};
@@ -13,7 +13,6 @@
 		activeExecutable = 99029BB6147E8443003030C0 /* MyCinderProject */;
 		activeTarget = 8D1107260486CEB800E47090 /* MyCinderProject */;
 		addToTargets = (
-			8D1107260486CEB800E47090 /* MyCinderProject */,
 		);
 		codeSenseManager = 99029BD9147E8462003030C0 /* Code sense */;
 		executables = (
@@ -21,7 +20,7 @@
 		);
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
-				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
@@ -263,6 +262,27 @@
 			99029EA3147ED34C003030C0 /* PBXTextBookmark */ = 99029EA3147ED34C003030C0 /* PBXTextBookmark */;
 			99029EA6147ED35A003030C0 /* PBXTextBookmark */ = 99029EA6147ED35A003030C0 /* PBXTextBookmark */;
 			99029EA9147ED383003030C0 /* PBXTextBookmark */ = 99029EA9147ED383003030C0 /* PBXTextBookmark */;
+			99029EAA147ED3A0003030C0 /* PBXTextBookmark */ = 99029EAA147ED3A0003030C0 /* PBXTextBookmark */;
+			99029EAD147ED4A7003030C0 /* PBXTextBookmark */ = 99029EAD147ED4A7003030C0 /* PBXTextBookmark */;
+			99029EAE147ED4B6003030C0 /* PBXTextBookmark */ = 99029EAE147ED4B6003030C0 /* PBXTextBookmark */;
+			99029EC4147ED707003030C0 /* PBXTextBookmark */ = 99029EC4147ED707003030C0 /* PBXTextBookmark */;
+			99029EC5147ED707003030C0 /* PBXTextBookmark */ = 99029EC5147ED707003030C0 /* PBXTextBookmark */;
+			99029EC6147ED707003030C0 /* PBXTextBookmark */ = 99029EC6147ED707003030C0 /* PBXTextBookmark */;
+			99029EC7147ED707003030C0 /* PBXTextBookmark */ = 99029EC7147ED707003030C0 /* PBXTextBookmark */;
+			99029EC9147ED707003030C0 /* PBXTextBookmark */ = 99029EC9147ED707003030C0 /* PBXTextBookmark */;
+			99029ECA147ED707003030C0 /* PBXTextBookmark */ = 99029ECA147ED707003030C0 /* PBXTextBookmark */;
+			99029ECB147ED707003030C0 /* PBXTextBookmark */ = 99029ECB147ED707003030C0 /* PBXTextBookmark */;
+			99029ED4147ED7DA003030C0 /* PBXTextBookmark */ = 99029ED4147ED7DA003030C0 /* PBXTextBookmark */;
+			99029ED6147ED7DA003030C0 /* PBXTextBookmark */ = 99029ED6147ED7DA003030C0 /* PBXTextBookmark */;
+			99029ED7147ED7DA003030C0 /* PBXTextBookmark */ = 99029ED7147ED7DA003030C0 /* PBXTextBookmark */;
+			99029ED8147ED7DA003030C0 /* PBXTextBookmark */ = 99029ED8147ED7DA003030C0 /* PBXTextBookmark */;
+			99029ED9147ED7DA003030C0 /* PBXTextBookmark */ = 99029ED9147ED7DA003030C0 /* PBXTextBookmark */;
+			99029EDD147ED888003030C0 /* PBXTextBookmark */ = 99029EDD147ED888003030C0 /* PBXTextBookmark */;
+			99029EDE147ED888003030C0 /* PBXTextBookmark */ = 99029EDE147ED888003030C0 /* PBXTextBookmark */;
+			99029EDF147ED888003030C0 /* PBXTextBookmark */ = 99029EDF147ED888003030C0 /* PBXTextBookmark */;
+			99029EE0147ED888003030C0 /* PBXTextBookmark */ = 99029EE0147ED888003030C0 /* PBXTextBookmark */;
+			99029EE1147ED888003030C0 /* PBXTextBookmark */ = 99029EE1147ED888003030C0 /* PBXTextBookmark */;
+			99029EE2147ED888003030C0 /* PBXTextBookmark */ = 99029EE2147ED888003030C0 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 99029BD8147E8462003030C0 /* Source Control */;
 		userBuildSettings = {
@@ -380,7 +400,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 22";
 		rLen = 0;
-		rLoc = 1263;
+		rLoc = 1266;
 		rType = 0;
 		vrLen = 676;
 		vrLoc = 0;
@@ -390,7 +410,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 24";
 		rLen = 0;
-		rLoc = 1263;
+		rLoc = 1266;
 		rType = 0;
 		vrLen = 751;
 		vrLoc = 0;
@@ -400,7 +420,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 39";
 		rLen = 0;
-		rLoc = 1360;
+		rLoc = 1363;
 		rType = 0;
 		vrLen = 751;
 		vrLoc = 0;
@@ -410,7 +430,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 39";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 785;
 		vrLoc = 0;
@@ -440,7 +460,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 46";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 952;
 		vrLoc = 59;
@@ -450,7 +470,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 46";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 987;
 		vrLoc = 33;
@@ -460,7 +480,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 41";
 		rLen = 0;
-		rLoc = 1326;
+		rLoc = 1329;
 		rType = 0;
 		vrLen = 908;
 		vrLoc = 33;
@@ -470,7 +490,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 46";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 33;
@@ -480,7 +500,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 48";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 975;
 		vrLoc = 59;
@@ -490,7 +510,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 48";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 977;
 		vrLoc = 59;
@@ -510,7 +530,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 49";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1069;
 		vrLoc = 185;
@@ -520,7 +540,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 52";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1047;
 		vrLoc = 164;
@@ -530,7 +550,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 52";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1094;
 		vrLoc = 185;
@@ -549,7 +569,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 45";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1125;
 		vrLoc = 164;
@@ -568,7 +588,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 45";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 423;
 		vrLoc = 723;
@@ -578,7 +598,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 45";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1125;
 		vrLoc = 164;
@@ -588,7 +608,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 45";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1098;
 		vrLoc = 164;
@@ -598,7 +618,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 46";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1049;
 		vrLoc = 164;
@@ -608,7 +628,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 52";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1027;
 		vrLoc = 164;
@@ -618,7 +638,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 45";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1079;
 		vrLoc = 139;
@@ -628,7 +648,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 45";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1083;
 		vrLoc = 139;
@@ -638,7 +658,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 52";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1110;
 		vrLoc = 164;
@@ -648,7 +668,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 52";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1142;
 		vrLoc = 164;
@@ -658,7 +678,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 46";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1138;
 		vrLoc = 119;
@@ -678,7 +698,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 34";
 		rLen = 0;
-		rLoc = 1261;
+		rLoc = 1264;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 0;
@@ -688,7 +708,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 62";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1426;
 		vrLoc = 300;
@@ -720,7 +740,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 62";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1409;
 		vrLoc = 370;
@@ -730,7 +750,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 57";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1364;
 		vrLoc = 370;
@@ -740,7 +760,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 57";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1364;
 		vrLoc = 370;
@@ -762,7 +782,13 @@
 		vrLen = 1349;
 		vrLoc = 1328;
 	};
-	99029CC1147E998F003030C0 /* FlickrImage.h */ = {
+	99029CC1147E998F003030C0 /* English */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = English;
+		path = /Users/camilleb/Workshop/MyCinderProject/include/English.lproj/FlickrImage.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {561, 638}}";
 			sepNavSelRange = "{268, 21}";
@@ -772,7 +798,7 @@
 	};
 	99029CC2147E998F003030C0 /* FlickrImage.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {803, 638}}";
+			sepNavIntBoundsRect = "{{0, 0}, {894, 638}}";
 			sepNavSelRange = "{140, 52}";
 			sepNavVisRange = "{0, 725}";
 			sepNavWindowFrame = "{{130, 360}, {750, 558}}";
@@ -797,21 +823,21 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 57";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1364;
 		vrLoc = 370;
 	};
 	99029CC9147E99DC003030C0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 99029CC1147E998F003030C0 /* FlickrImage.h */;
+		fRef = 99029CC1147E998F003030C0 /* English */;
 		rLen = 0;
 		rLoc = 9223372036854776142;
 		rType = 0;
 	};
 	99029CCA147E99DC003030C0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 99029CC1147E998F003030C0 /* FlickrImage.h */;
+		fRef = 99029CC1147E998F003030C0 /* English */;
 		name = "FlickrImage.h: 10";
 		rLen = 0;
 		rLoc = 490;
@@ -824,7 +850,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 38";
 		rLen = 0;
-		rLoc = 1261;
+		rLoc = 1264;
 		rType = 0;
 		vrLen = 845;
 		vrLoc = 354;
@@ -832,7 +858,7 @@
 	99029CDE147EA4FB003030C0 /* Controller.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {894, 638}}";
-			sepNavSelRange = "{37, 17}";
+			sepNavSelRange = "{152, 0}";
 			sepNavVisRange = "{0, 247}";
 		};
 	};
@@ -886,7 +912,7 @@
 	};
 	99029CF7147EACDF003030C0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 99029CC1147E998F003030C0 /* FlickrImage.h */;
+		fRef = 99029CC1147E998F003030C0 /* English */;
 		name = "FlickrImage.h: 8";
 		rLen = 67;
 		rLoc = 222;
@@ -899,7 +925,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 49";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 868;
 		vrLoc = 87;
@@ -909,7 +935,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 34";
 		rLen = 0;
-		rLoc = 1259;
+		rLoc = 1262;
 		rType = 0;
 		vrLen = 901;
 		vrLoc = 33;
@@ -946,7 +972,7 @@
 	};
 	99029D01147EAD6F003030C0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 99029CC1147E998F003030C0 /* FlickrImage.h */;
+		fRef = 99029CC1147E998F003030C0 /* English */;
 		name = "FlickrImage.h: 13";
 		rLen = 0;
 		rLoc = 268;
@@ -969,14 +995,14 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 49";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 242;
 		vrLoc = 390;
 	};
 	99029D05147EAD99003030C0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 99029CC1147E998F003030C0 /* FlickrImage.h */;
+		fRef = 99029CC1147E998F003030C0 /* English */;
 		name = "FlickrImage.h: 27";
 		rLen = 0;
 		rLoc = 469;
@@ -1048,7 +1074,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 39";
 		rLen = 0;
-		rLoc = 1259;
+		rLoc = 1262;
 		rType = 0;
 		vrLen = 1180;
 		vrLoc = 33;
@@ -1058,7 +1084,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 39";
 		rLen = 0;
-		rLoc = 1259;
+		rLoc = 1262;
 		rType = 0;
 		vrLen = 1232;
 		vrLoc = 33;
@@ -1115,9 +1141,9 @@
 	};
 	99029D22147EB19C003030C0 /* FlickrXML.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {940, 247}}";
-			sepNavSelRange = "{221, 0}";
-			sepNavVisRange = "{0, 265}";
+			sepNavIntBoundsRect = "{{0, 0}, {894, 638}}";
+			sepNavSelRange = "{69, 0}";
+			sepNavVisRange = "{0, 303}";
 		};
 	};
 	99029D23147EB19C003030C0 /* FlickrXML.cpp */ = {
@@ -1139,7 +1165,7 @@
 	};
 	99029D28147EB520003030C0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 99029CC1147E998F003030C0 /* FlickrImage.h */;
+		fRef = 99029CC1147E998F003030C0 /* English */;
 		name = "FlickrImage.h: 27";
 		rLen = 3;
 		rLoc = 487;
@@ -1172,7 +1198,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 37";
 		rLen = 0;
-		rLoc = 1259;
+		rLoc = 1262;
 		rType = 0;
 		vrLen = 1165;
 		vrLoc = 186;
@@ -1239,7 +1265,7 @@
 	};
 	99029D3C147EB732003030C0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 99029CC1147E998F003030C0 /* FlickrImage.h */;
+		fRef = 99029CC1147E998F003030C0 /* English */;
 		name = "FlickrImage.h: 13";
 		rLen = 21;
 		rLoc = 268;
@@ -1312,7 +1338,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 37";
 		rLen = 0;
-		rLoc = 1259;
+		rLoc = 1262;
 		rType = 0;
 		vrLen = 1165;
 		vrLoc = 186;
@@ -1322,7 +1348,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 38";
 		rLen = 0;
-		rLoc = 1259;
+		rLoc = 1262;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 186;
@@ -1332,7 +1358,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 38";
 		rLen = 0;
-		rLoc = 1259;
+		rLoc = 1262;
 		rType = 0;
 		vrLen = 1185;
 		vrLoc = 186;
@@ -1928,7 +1954,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 42";
 		rLen = 0;
-		rLoc = 1259;
+		rLoc = 1262;
 		rType = 0;
 		vrLen = 1246;
 		vrLoc = 87;
@@ -1948,7 +1974,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 42";
 		rLen = 0;
-		rLoc = 1259;
+		rLoc = 1262;
 		rType = 0;
 		vrLen = 1271;
 		vrLoc = 87;
@@ -1958,7 +1984,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 42";
 		rLen = 0;
-		rLoc = 1259;
+		rLoc = 1262;
 		rType = 0;
 		vrLen = 1271;
 		vrLoc = 87;
@@ -2038,7 +2064,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 42";
 		rLen = 0;
-		rLoc = 1259;
+		rLoc = 1262;
 		rType = 0;
 		vrLen = 1271;
 		vrLoc = 87;
@@ -2048,7 +2074,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 42";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 1389;
 		vrLoc = 59;
@@ -2058,7 +2084,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 42";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 1364;
 		vrLoc = 59;
@@ -2078,7 +2104,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 42";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 1399;
 		vrLoc = 59;
@@ -2088,7 +2114,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 42";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 1390;
 		vrLoc = 87;
@@ -2137,7 +2163,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 43";
 		rLen = 0;
-		rLoc = 845;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 1433;
 		vrLoc = 33;
@@ -2166,7 +2192,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 43";
 		rLen = 0;
-		rLoc = 845;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 782;
 		vrLoc = 680;
@@ -2176,7 +2202,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 1448;
 		vrLoc = 33;
@@ -2186,7 +2212,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 43";
 		rLen = 0;
-		rLoc = 845;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 705;
 		vrLoc = 680;
@@ -2196,7 +2222,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 1442;
 		vrLoc = 33;
@@ -2206,7 +2232,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 87;
@@ -2216,7 +2242,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 42";
 		rLen = 0;
-		rLoc = 808;
+		rLoc = 811;
 		rType = 0;
 		vrLen = 1387;
 		vrLoc = 87;
@@ -2226,7 +2252,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 43";
 		rLen = 0;
-		rLoc = 845;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 694;
 		vrLoc = 680;
@@ -2236,7 +2262,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 42";
 		rLen = 7;
-		rLoc = 801;
+		rLoc = 804;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 87;
@@ -2246,7 +2272,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 1363;
 		vrLoc = 87;
@@ -2256,7 +2282,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 1354;
 		vrLoc = 87;
@@ -2275,7 +2301,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 1395;
 		vrLoc = 87;
@@ -2285,7 +2311,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 1390;
 		vrLoc = 87;
@@ -2295,7 +2321,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 1391;
 		vrLoc = 87;
@@ -2314,7 +2340,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 43";
 		rLen = 0;
-		rLoc = 845;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 759;
 		vrLoc = 680;
@@ -2324,7 +2350,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 1391;
 		vrLoc = 87;
@@ -2334,7 +2360,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 1449;
 		vrLoc = 0;
@@ -2344,7 +2370,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 1448;
 		vrLoc = 0;
@@ -2354,7 +2380,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 1347;
 		vrLoc = 0;
@@ -2403,7 +2429,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 44";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 1393;
 		vrLoc = 87;
@@ -2413,7 +2439,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 44";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 1371;
 		vrLoc = 166;
@@ -2423,7 +2449,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 44";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 1356;
 		vrLoc = 166;
@@ -2442,7 +2468,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 44";
 		rLen = 0;
-		rLoc = 845;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 761;
 		vrLoc = 624;
@@ -2452,7 +2478,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 45";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 1415;
 		vrLoc = 166;
@@ -2462,7 +2488,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 50";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 1562;
 		vrLoc = 166;
@@ -2472,7 +2498,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 44";
 		rLen = 0;
-		rLoc = 845;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 689;
 		vrLoc = 624;
@@ -2482,7 +2508,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 50";
 		rLen = 0;
-		rLoc = 1259;
+		rLoc = 1262;
 		rType = 0;
 		vrLen = 1188;
 		vrLoc = 226;
@@ -2502,7 +2528,7 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 41";
 		rLen = 0;
-		rLoc = 845;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 686;
 		vrLoc = 635;
@@ -2522,7 +2548,236 @@
 		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
 		name = "MyCinderProjectApp.cpp: 36";
 		rLen = 0;
-		rLoc = 681;
+		rLoc = 684;
+		rType = 0;
+		vrLen = 1209;
+		vrLoc = 118;
+	};
+	99029EAA147ED3A0003030C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
+		name = "MyCinderProjectApp.cpp: 36";
+		rLen = 0;
+		rLoc = 684;
+		rType = 0;
+		vrLen = 1212;
+		vrLoc = 118;
+	};
+	99029EAD147ED4A7003030C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
+		name = "MyCinderProjectApp.cpp: 40";
+		rLen = 0;
+		rLoc = 848;
+		rType = 0;
+		vrLen = 687;
+		vrLoc = 617;
+	};
+	99029EAE147ED4B6003030C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
+		name = "MyCinderProjectApp.cpp: 13";
+		rLen = 0;
+		rLoc = 274;
+		rType = 0;
+		vrLen = 1212;
+		vrLoc = 118;
+	};
+	99029EC4147ED707003030C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99029CC2147E998F003030C0 /* FlickrImage.cpp */;
+		name = "FlickrImage.cpp: 6";
+		rLen = 52;
+		rLoc = 140;
+		rType = 0;
+		vrLen = 725;
+		vrLoc = 0;
+	};
+	99029EC5147ED707003030C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99029D22147EB19C003030C0 /* FlickrXML.h */;
+		name = "FlickrXML.h: 3";
+		rLen = 0;
+		rLoc = 69;
+		rType = 0;
+		vrLen = 303;
+		vrLoc = 0;
+	};
+	99029EC6147ED707003030C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
+		name = "MyCinderProjectApp.cpp: 7";
+		rLen = 0;
+		rLoc = 188;
+		rType = 0;
+		vrLen = 1212;
+		vrLoc = 118;
+	};
+	99029EC7147ED707003030C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99029EC8147ED707003030C0 /* FlickrImage.h */;
+		name = "FlickrImage.h: 13";
+		rLen = 21;
+		rLoc = 268;
+		rType = 0;
+		vrLen = 490;
+		vrLoc = 0;
+	};
+	99029EC8147ED707003030C0 /* FlickrImage.h */ = {
+		isa = PBXFileReference;
+		name = FlickrImage.h;
+		path = /Users/camilleb/Workshop/MyCinderProject/xcode/English.lproj/FlickrImage.h;
+		sourceTree = "<absolute>";
+	};
+	99029EC9147ED707003030C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99029CDE147EA4FB003030C0 /* Controller.h */;
+		name = "Controller.h: 11";
+		rLen = 0;
+		rLoc = 152;
+		rType = 0;
+		vrLen = 247;
+		vrLoc = 0;
+	};
+	99029ECA147ED707003030C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99029CDF147EA4FB003030C0 /* Controller.cpp */;
+		name = "Controller.cpp: 7";
+		rLen = 0;
+		rLoc = 146;
+		rType = 0;
+		vrLen = 719;
+		vrLoc = 0;
+	};
+	99029ECB147ED707003030C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99029CDF147EA4FB003030C0 /* Controller.cpp */;
+		name = "Controller.cpp: 7";
+		rLen = 0;
+		rLoc = 146;
+		rType = 0;
+		vrLen = 719;
+		vrLoc = 0;
+	};
+	99029ECC147ED731003030C0 /* FlickrImage.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {894, 638}}";
+			sepNavSelRange = "{490, 0}";
+			sepNavVisRange = "{0, 490}";
+		};
+	};
+	99029ED4147ED7DA003030C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99029ED5147ED7DA003030C0 /* FlickrImage.h */;
+		name = "FlickrImage.h: 1";
+		rLen = 490;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 490;
+		vrLoc = 0;
+	};
+	99029ED5147ED7DA003030C0 /* FlickrImage.h */ = {
+		isa = PBXFileReference;
+		name = FlickrImage.h;
+		path = /Users/camilleb/Workshop/MyCinderProject/xcode/FlickrImage.h;
+		sourceTree = "<absolute>";
+	};
+	99029ED6147ED7DA003030C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99029ECC147ED731003030C0 /* FlickrImage.h */;
+		name = "FlickrImage.h: 28";
+		rLen = 0;
+		rLoc = 490;
+		rType = 0;
+		vrLen = 490;
+		vrLoc = 0;
+	};
+	99029ED7147ED7DA003030C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
+		name = "MyCinderProjectApp.cpp: 7";
+		rLen = 0;
+		rLoc = 188;
+		rType = 0;
+		vrLen = 1212;
+		vrLoc = 118;
+	};
+	99029ED8147ED7DA003030C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99029CDF147EA4FB003030C0 /* Controller.cpp */;
+		name = "Controller.cpp: 7";
+		rLen = 0;
+		rLoc = 146;
+		rType = 0;
+		vrLen = 719;
+		vrLoc = 0;
+	};
+	99029ED9147ED7DA003030C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99029CDF147EA4FB003030C0 /* Controller.cpp */;
+		name = "Controller.cpp: 7";
+		rLen = 0;
+		rLoc = 146;
+		rType = 0;
+		vrLen = 719;
+		vrLoc = 0;
+	};
+	99029EDD147ED888003030C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99029CDF147EA4FB003030C0 /* Controller.cpp */;
+		name = "Controller.cpp: 7";
+		rLen = 0;
+		rLoc = 146;
+		rType = 0;
+		vrLen = 719;
+		vrLoc = 0;
+	};
+	99029EDE147ED888003030C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99029D22147EB19C003030C0 /* FlickrXML.h */;
+		name = "FlickrXML.h: 3";
+		rLen = 0;
+		rLoc = 69;
+		rType = 0;
+		vrLen = 303;
+		vrLoc = 0;
+	};
+	99029EDF147ED888003030C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99029CDE147EA4FB003030C0 /* Controller.h */;
+		name = "Controller.h: 11";
+		rLen = 0;
+		rLoc = 152;
+		rType = 0;
+		vrLen = 247;
+		vrLoc = 0;
+	};
+	99029EE0147ED888003030C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99029CC2147E998F003030C0 /* FlickrImage.cpp */;
+		name = "FlickrImage.cpp: 6";
+		rLen = 52;
+		rLoc = 140;
+		rType = 0;
+		vrLen = 725;
+		vrLoc = 0;
+	};
+	99029EE1147ED888003030C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99029D23147EB19C003030C0 /* FlickrXML.cpp */;
+		name = "FlickrXML.cpp: 3";
+		rLen = 19;
+		rLoc = 79;
+		rType = 0;
+		vrLen = 632;
+		vrLoc = 0;
+	};
+	99029EE2147ED888003030C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* MyCinderProjectApp.cpp */;
+		name = "MyCinderProjectApp.cpp: 7";
+		rLen = 0;
+		rLoc = 188;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 118;

@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -266,12 +268,17 @@
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
+								<string>29B97317FDCFA39411CA2CEA</string>
+								<string>29B97323FDCFA39411CA2CEA</string>
+								<string>19C28FACFE9D520D11CA2CBB</string>
+								<string>1C37FBAC04509CD000000102</string>
+								<string>99029EC3147ED707003030C0</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
+									<integer>8</integer>
 									<integer>6</integer>
 									<integer>0</integer>
 								</array>
@@ -307,8 +314,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -326,18 +331,20 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>99029EA9147ED383003030C0</string>
+										<string>99029EE2147ED888003030C0</string>
 										<key>history</key>
 										<array>
 											<string>99029CC7147E99DC003030C0</string>
-											<string>99029D3C147EB732003030C0</string>
-											<string>99029DEC147EC1A2003030C0</string>
 											<string>99029DEE147EC1A2003030C0</string>
-											<string>99029E14147EC4FE003030C0</string>
-											<string>99029E88147ED060003030C0</string>
-											<string>99029E89147ED060003030C0</string>
-											<string>99029E8A147ED060003030C0</string>
-											<string>99029E8B147ED060003030C0</string>
+											<string>99029EC7147ED707003030C0</string>
+											<string>99029ED4147ED7DA003030C0</string>
+											<string>99029ED6147ED7DA003030C0</string>
+											<string>99029EDD147ED888003030C0</string>
+											<string>99029EDE147ED888003030C0</string>
+											<string>99029EDF147ED888003030C0</string>
+											<string>99029EE0147ED888003030C0</string>
+											<string>99029EE1147ED888003030C0</string>
+											<string>99029ED7147ED7DA003030C0</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -535,6 +542,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>99029EE3147ED888003030C0</string>
 		<string>1C0AD2AF069F1E9B00FABCE6</string>
 		<string>99029C3D147E8920003030C0</string>
 		<string>99029C3E147E8920003030C0</string>
