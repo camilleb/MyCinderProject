@@ -20,6 +20,8 @@ class MyCinderProjectApp : public AppBasic {
 	void draw();
     void loadPhotos(string currentTag);
 	
+    gl::Texture mBkg;
+    
 	Controller mController;
 	FlickrXML mFlickrXML;
     
@@ -41,12 +43,14 @@ void MyCinderProjectApp::prepareSettings(Settings *settings )
 
 void MyCinderProjectApp::setup()
 {
+    mBkg = gl::Texture( loadImage( loadUrl( "http://farm4.staticflickr.com/3040/2629043965_66b8ac2655_z.jpg?zz=1") ) );
+    
 	mTag = mCurrentTag = "kitten";   
     mNbPhotos = mNbCurrentPhotos = 5; 
     loadPhotos(mCurrentTag);
     
     mParams = params::InterfaceGl( "Parameters", Vec2i( 225, 10) );
-    mParams.addParam( "Your word", &mTag );
+    mParams.addParam( "Tags", &mTag );
     mParams.addParam( "Number of pics", &mNbPhotos );
 }
 
@@ -70,6 +74,11 @@ void MyCinderProjectApp::update()
 void MyCinderProjectApp::draw()
 {
 	gl::clear( Color( 0, 0, 0 ));
+    
+    // Draw background
+    gl::draw( mBkg, getWindowBounds());
+    
+    // Draw flickr image
 	mController.draw();
     
 	// Draw the interface
