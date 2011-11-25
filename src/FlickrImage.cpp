@@ -16,14 +16,16 @@ FlickrImage::FlickrImage(string url, Vec2f loc, float delta )
 	mImg	= gl::Texture( loadImage( loadUrl( mUrl ) ) );
 	mLoc	= loc;
     mLoc.x += (delta - mImg.getWidth())/2;
+    mDir    = 1 - 2 * (rand() % 2);
+    mSpeed    = rand() % 3 + 1;
 }
 
 void FlickrImage::update()
 {
 	//mLoc += mDir * mVel;
 	//float x = getWindowWidth()/2;
-	//float y = sin( getElapsedSeconds() ) * 75.0f + getWindowHeight() / 2;	
-    mLoc.y =  sin( getElapsedSeconds()*2 ) * 10.0f + (getWindowHeight() - mImg.getHeight() ) / 2;
+	//float y = sin( getElapsedSeconds() ) * 75.0f + getWindowHeight() / 2;
+    mLoc.y =  sin( getElapsedSeconds() * mSpeed * mDir) * 20.0f + (getWindowHeight() - mImg.getHeight() ) / 2;
 }
 
 void FlickrImage::draw()
@@ -33,3 +35,6 @@ void FlickrImage::draw()
 	}
 }
 
+void FlickrImage::setX(float x, float delta){
+     mLoc.x = x + (delta - mImg.getWidth())/2;
+}

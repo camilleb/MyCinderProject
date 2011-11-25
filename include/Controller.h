@@ -12,6 +12,7 @@ public:
 	void draw();
 	void addFlickrImage( string url, float delta, int i );
     void cleanFlickrImages();
+    void positionPhotos(float delta);
 	
 	std::list<FlickrImage>	mFlickrImages;	
 };

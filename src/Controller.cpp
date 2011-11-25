@@ -33,6 +33,14 @@ void Controller::addFlickrImage(string url, float delta, int i)
 	mFlickrImages.push_back(FlickrImage(url, Vec2f( x, y ), delta ) );
 }
 
+void Controller::positionPhotos(float delta){
+    int i = 0;
+    for( list<FlickrImage>::iterator fi = mFlickrImages.begin(); fi != mFlickrImages.end(); ++fi ){
+		fi->setX(delta * i, delta);
+        i++;
+	}
+}
+
 void Controller::cleanFlickrImages(){
     mFlickrImages.clear();
 }

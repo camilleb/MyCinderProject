@@ -19,10 +19,11 @@ public:
 	FlickrImage( string url, ci::Vec2f, float delta );
 	void update();
 	void draw();
+    void setX(float x, float delta);
 	
 	ci::Vec2f	mLoc;
-	ci::Vec2f	mDir;
-	float		mVel;
 	string		mUrl;
 	gl::Texture mImg;
+    int mDir;
+    int mSpeed;
 };

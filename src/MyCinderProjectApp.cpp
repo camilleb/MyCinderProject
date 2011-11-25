@@ -24,6 +24,7 @@ class MyCinderProjectApp : public AppBasic {
 	FlickrXML mFlickrXML;
     
     int mNbPhotos;
+    int mNbCurrentPhotos;
     
     params::InterfaceGl mParams;
     string mTag;
@@ -41,11 +42,12 @@ void MyCinderProjectApp::prepareSettings(Settings *settings )
 void MyCinderProjectApp::setup()
 {
 	mTag = mCurrentTag = "kitten";   
-    mNbPhotos = 5; 
+    mNbPhotos = mNbCurrentPhotos = 5; 
     loadPhotos(mCurrentTag);
     
     mParams = params::InterfaceGl( "Parameters", Vec2i( 225, 10) );
     mParams.addParam( "Your word", &mTag );
+    mParams.addParam( "Number of pics", &mNbPhotos );
 }
 
 void MyCinderProjectApp::update()
@@ -53,8 +55,14 @@ void MyCinderProjectApp::update()
     
     if(mTag != mCurrentTag){
         mCurrentTag = mTag;
-        mController.cleanFlickrImages();
         loadPhotos(mCurrentTag);
+    }else if(mNbPhotos != mNbCurrentPhotos){
+        if(mNbCurrentPhotos < mNbPhotos){
+            loadPhotos(mCurrentTag);
+        }else{
+            mController.positionPhotos(getWindowWidth()/mNbPhotos);
+        }
+        mNbCurrentPhotos = mNbPhotos;
     }
 	mController.update();
 }
@@ -69,6 +77,9 @@ void MyCinderProjectApp::draw()
 }
 
 void MyCinderProjectApp::loadPhotos(string currentTag){
+    
+    mController.cleanFlickrImages();
+    
     mFlickrXML = FlickrXML(currentTag, mNbPhotos);
     
     float delta = getWindowWidth()/mNbPhotos;
