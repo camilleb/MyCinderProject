@@ -10,27 +10,26 @@ FlickrImage::FlickrImage()
 {
 }
 
-FlickrImage::FlickrImage(string url, Vec2f loc )
+FlickrImage::FlickrImage(string url, Vec2f loc, float delta )
 {
-	mLoc	= loc;
-	mDir	= Rand::randVec2f();
-	mVel	= Rand::randFloat( 5.0f );
 	mUrl	= url;
 	mImg	= gl::Texture( loadImage( loadUrl( mUrl ) ) );
+	mLoc	= loc;
+    mLoc.x += (delta - mImg.getWidth())/2;
 }
 
 void FlickrImage::update()
 {
-	mLoc += mDir * mVel;
+	//mLoc += mDir * mVel;
 	//float x = getWindowWidth()/2;
 	//float y = sin( getElapsedSeconds() ) * 75.0f + getWindowHeight() / 2;	
+    mLoc.y =  sin( getElapsedSeconds()*2 ) * 10.0f + (getWindowHeight() - mImg.getHeight() ) / 2;
 }
 
 void FlickrImage::draw()
 {
 	if(mImg){
 		gl::draw( mImg, mLoc);
-		//gl::draw( myFlickrImage, Vec2f( x - myFlickrImage.getWidth() / 2, y - myFlickrImage.getHeight() / 2 ));
 	}
 }
 

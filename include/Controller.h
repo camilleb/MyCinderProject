@@ -10,7 +10,7 @@ public:
 	Controller();
 	void update();
 	void draw();
-	void addFlickrImage( string url );
+	void addFlickrImage( string url, float delta, int i );
     void cleanFlickrImages();
 	
 	std::list<FlickrImage>	mFlickrImages;	

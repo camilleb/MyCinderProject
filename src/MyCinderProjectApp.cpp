@@ -22,6 +22,9 @@ class MyCinderProjectApp : public AppBasic {
 	
 	Controller mController;
 	FlickrXML mFlickrXML;
+    
+    int mNbPhotos;
+    
     params::InterfaceGl mParams;
     string mTag;
     string mCurrentTag;
@@ -37,7 +40,9 @@ void MyCinderProjectApp::prepareSettings(Settings *settings )
 
 void MyCinderProjectApp::setup()
 {
-	mTag = mCurrentTag = "kitten";    loadPhotos(mCurrentTag);
+	mTag = mCurrentTag = "kitten";   
+    mNbPhotos = 5; 
+    loadPhotos(mCurrentTag);
     
     mParams = params::InterfaceGl( "Parameters", Vec2i( 225, 10) );
     mParams.addParam( "Your word", &mTag );
@@ -64,15 +69,20 @@ void MyCinderProjectApp::draw()
 }
 
 void MyCinderProjectApp::loadPhotos(string currentTag){
-    mFlickrXML = FlickrXML(currentTag);
+    mFlickrXML = FlickrXML(currentTag, mNbPhotos);
+    
+    float delta = getWindowWidth()/mNbPhotos;
+    
 	XmlTree photos = mFlickrXML.getXMLPhotos();
+    int i = 0; 
 	for( XmlTree::Iter photo = photos.begin("photo"); photo != photos.end(); ++photo ){
 		string photoFarm = photo->getAttributeValue<string>( "farm" );
 		string photoId = photo->getAttributeValue<string>( "id" );
 		string photoServer = photo->getAttributeValue<string>( "server" );		
 		string photoSecret = photo->getAttributeValue<string>( "secret" );
-		string url = "http://farm"+photoFarm+".static.flickr.com/"+photoServer+"/"+photoId+"_"+photoSecret+"_m.jpg";
-		mController.addFlickrImage(url);
+		string url = "http://farm"+photoFarm+".static.flickr.com/"+photoServer+"/"+photoId+"_"+photoSecret+"_s.jpg";
+		mController.addFlickrImage(url, delta, i);
+        i++;
 	}
 }
 

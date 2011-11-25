@@ -16,7 +16,7 @@ using namespace std;
 class FlickrImage {
 public:
 	FlickrImage();
-	FlickrImage( string url, ci::Vec2f );
+	FlickrImage( string url, ci::Vec2f, float delta );
 	void update();
 	void draw();
 	

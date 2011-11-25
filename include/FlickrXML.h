@@ -10,10 +10,11 @@ using namespace std;
 class FlickrXML {
 public:
 	FlickrXML();
-	FlickrXML(string word);
+	FlickrXML(string word, int perPage);
 	XmlTree getXMLPhotos();
 	
 	string mApiKey;
 	string mWord;
 	string mRequestUrl;
+    string mPerPage;
 };

@@ -2,6 +2,7 @@
 #include "cinder/app/AppBasic.h"
 #include "cinder/Xml.h"
 #include <string>
+#include <sstream>
 
 using namespace ci;
 using namespace ci::app;
@@ -11,9 +12,12 @@ FlickrXML::FlickrXML()
 {
 }
 
-FlickrXML::FlickrXML(string word)
+FlickrXML::FlickrXML(string word, int perPage)
 {
 	mWord = word;
+    std::ostringstream oss;
+    oss << perPage;
+    mPerPage = oss.str();
 }
 
 XmlTree FlickrXML::getXMLPhotos() {
@@ -21,7 +25,7 @@ XmlTree FlickrXML::getXMLPhotos() {
 	mRequestUrl = "http://api.flickr.com/services/rest/?method=flickr.photos.search";
 	mRequestUrl += "&api_key="+mApiKey;
 	mRequestUrl += "&tags="+mWord;
-	mRequestUrl += "&per_page=5"; 
+	mRequestUrl += "&per_page="+mPerPage; 
 	
 	cout << mRequestUrl << endl;
 	XmlTree xml ( loadUrl( Url( mRequestUrl ) ) );

@@ -24,12 +24,13 @@ void Controller::draw()
 	}
 }
 
-void Controller::addFlickrImage(string url)
+void Controller::addFlickrImage(string url, float delta, int i)
 {
-	float x = Rand::randFloat( app::getWindowWidth() );
+	//float x = Rand::randFloat( app::getWindowWidth() );
 	//float y = Rand::randFloat( app::getWindowHeight() );
-	float y = getWindowHeight() / 2;
-	mFlickrImages.push_back(FlickrImage(url, Vec2f( x, y ) ) );
+	float x = delta * i;
+    float y = getWindowHeight() / 2;
+	mFlickrImages.push_back(FlickrImage(url, Vec2f( x, y ), delta ) );
 }
 
 void Controller::cleanFlickrImages(){
