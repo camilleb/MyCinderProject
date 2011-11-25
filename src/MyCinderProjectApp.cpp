@@ -3,6 +3,7 @@
 #include "cinder/ImageIo.h"
 #include "cinder/gl/Texture.h"
 #include "cinder/Xml.h"
+#include "cinder/params/Params.h"
 #include "Controller.h"
 #include "FlickrXML.h"
 #include <string>
@@ -17,10 +18,13 @@ class MyCinderProjectApp : public AppBasic {
 	void setup();
 	void update();
 	void draw();
+    void loadPhotos(string currentTag);
 	
 	Controller mController;
 	FlickrXML mFlickrXML;
-
+    params::InterfaceGl mParams;
+    string mTag;
+    string mCurrentTag;
 };
 
 
@@ -33,9 +37,35 @@ void MyCinderProjectApp::prepareSettings(Settings *settings )
 
 void MyCinderProjectApp::setup()
 {
-	mFlickrXML = FlickrXML("kitten");
+	mTag = mCurrentTag = "kitten";    loadPhotos(mCurrentTag);
+    
+    mParams = params::InterfaceGl( "Parameters", Vec2i( 225, 10) );
+    mParams.addParam( "Your word", &mTag );
+}
+
+void MyCinderProjectApp::update()
+{
+    
+    if(mTag != mCurrentTag){
+        mCurrentTag = mTag;
+        mController.cleanFlickrImages();
+        loadPhotos(mCurrentTag);
+    }
+	mController.update();
+}
+
+void MyCinderProjectApp::draw()
+{
+	gl::clear( Color( 0, 0, 0 ));
+	mController.draw();
+    
+	// Draw the interface
+	params::InterfaceGl::draw();
+}
+
+void MyCinderProjectApp::loadPhotos(string currentTag){
+    mFlickrXML = FlickrXML(currentTag);
 	XmlTree photos = mFlickrXML.getXMLPhotos();
-	console() << photos << endl;
 	for( XmlTree::Iter photo = photos.begin("photo"); photo != photos.end(); ++photo ){
 		string photoFarm = photo->getAttributeValue<string>( "farm" );
 		string photoId = photo->getAttributeValue<string>( "id" );
@@ -44,18 +74,6 @@ void MyCinderProjectApp::setup()
 		string url = "http://farm"+photoFarm+".static.flickr.com/"+photoServer+"/"+photoId+"_"+photoSecret+"_m.jpg";
 		mController.addFlickrImage(url);
 	}
-	
-}
-
-void MyCinderProjectApp::update()
-{
-	mController.update();
-}
-
-void MyCinderProjectApp::draw()
-{
-	gl::clear( Color( 0, 0, 0 ));
-	mController.draw();
 }
 
 

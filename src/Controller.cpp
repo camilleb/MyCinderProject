@@ -31,3 +31,7 @@ void Controller::addFlickrImage(string url)
 	float y = getWindowHeight() / 2;
 	mFlickrImages.push_back(FlickrImage(url, Vec2f( x, y ) ) );
 }
+
+void Controller::cleanFlickrImages(){
+    mFlickrImages.clear();
+}
